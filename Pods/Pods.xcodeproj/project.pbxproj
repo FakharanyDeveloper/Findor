@@ -1,0 +1,1025 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12E29C8EF2410D60FCA34B96B5D6B26E /* SmartHitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50287286C48BE59940AF90A3E5895431 /* SmartHitTest.swift */; };
+		1F25FD227E0C15E04470B0830BBB43BE /* FocusNode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04EA551E9B0F9051999E84BB4F413A /* FocusNode-dummy.m */; };
+		21A68C025ABF75111EA33FAD9166A61D /* SCNPath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E06C93DE5C800DB4811E4329F0DBE0 /* SCNPath-dummy.m */; };
+		2814FE1C94B9ABD19D1566AD7AFC5608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B001D40E461606023A45CF3D3A6E506 /* Foundation.framework */; };
+		3593F522F808FEAAABBF394B618AF5C4 /* FocusNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A5DAACA61BEEDF4B284342262F1F29 /* FocusNode.swift */; };
+		37B14354451FB6C2394C4E5E45E3C77C /* FocusPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8C38360733EBB3C0AD577F7B2D64E2 /* FocusPlane.swift */; };
+		43E92C609E6CC071FF2C8A4880102616 /* SCNPath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A07247FD70F1EB4630D5634451253FD /* SCNPath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D49F61BC2E8DDC1921263FEF8FF807B /* FocusSquare+Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6FE3C04822126B5BBB81272B74F53 /* FocusSquare+Segment.swift */; };
+		4F2189CE5D4497D0E7E12D8BAC6E69BB /* Pods-ARKitFindor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDB52E8A4835C30A3CC2678F3F4275A /* Pods-ARKitFindor-dummy.m */; };
+		513AA7D6DEFECD1209CB7F5B4AA43A75 /* SmartHitTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05454FCDAEFB5240D3FDD352BDB72D39 /* SmartHitTest-dummy.m */; };
+		5A57072D8B5D6303049393C392F2EBBA /* SmartHitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48CEEC67877C52D85924B018EFF3034 /* SmartHitTest.framework */; };
+		77204BDFB0D79F1737B9C78470B4559A /* .swiftlint.yml in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DC35D2CD484D90EE38C3A4FA6338 /* .swiftlint.yml */; };
+		8D870A5C6245C33695197BEF6A3370F4 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D035D0FBE2871934210692BCED828342 /* SceneKit.framework */; };
+		8E3EB09FA4E6871711951F6598156CC6 /* SmartHitTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CD8C2B16976191B097F936CB41FA33 /* SmartHitTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		998B1335B7F7C6D20A6D3E45845D9688 /* SCNPathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FAB9A0700CBCC72BF57D6B94EC99BD /* SCNPathNode.swift */; };
+		998FC6203F5323CD920B153C5A6C2CBA /* Pods-ARKitFindor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6017BE6F47F5B3427488256298C5A0A4 /* Pods-ARKitFindor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A010E49460DC518BCF60A711C25831D1 /* SCNGeometry+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FF871055F8AD24B38E6992557CDC0 /* SCNGeometry+Extensions.swift */; };
+		A2FCDD8324434D1993BF2CA214DFADCE /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA532AC30681FA64AE9B78F8C491FF50 /* FocusSquare.swift */; };
+		A9F378FBA55E7AE7905F2AE601FA86C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B001D40E461606023A45CF3D3A6E506 /* Foundation.framework */; };
+		AE98A67442E69991FCAD8B1B3B620D8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B001D40E461606023A45CF3D3A6E506 /* Foundation.framework */; };
+		BC5971ABF4C65F58114D955DF6F47F26 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A036A564EEF3617EEE127FC183C1F805 /* SCNVector3+Extensions.swift */; };
+		CC38F84053AB7665DD57836815D9DEC6 /* FocusNode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4040B3FB6F899F62EABEE43A148DF4BA /* FocusNode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E04333A263C4F6D8306EFE71B39C6B53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B001D40E461606023A45CF3D3A6E506 /* Foundation.framework */; };
+		FB3316863398CD7F33F36162F4193AAD /* float4x4+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CF5A43F3F6582E6A6F3D14D7CEF70 /* float4x4+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1494F48BB633C71566061E3F0A7A98EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAC227ECFE2C0011E6381D1536D947D;
+			remoteInfo = FocusNode;
+		};
+		186A5FCA860E7C9211298735C01B030F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E11655272516BA3786E76D9BB0C819;
+			remoteInfo = SCNPath;
+		};
+		24E1413A26407C3077B0C1186FDB25C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18615455FD49A3F7FA9ACC6265296169;
+			remoteInfo = SmartHitTest;
+		};
+		E6E12FB5DBF66E0BD7AE8BD89697AD0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18615455FD49A3F7FA9ACC6265296169;
+			remoteInfo = SmartHitTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035CF5A43F3F6582E6A6F3D14D7CEF70 /* float4x4+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "float4x4+Extension.swift"; path = "Sources/FocusNode/float4x4+Extension.swift"; sourceTree = "<group>"; };
+		05454FCDAEFB5240D3FDD352BDB72D39 /* SmartHitTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartHitTest-dummy.m"; sourceTree = "<group>"; };
+		12CD8C2B16976191B097F936CB41FA33 /* SmartHitTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartHitTest-umbrella.h"; sourceTree = "<group>"; };
+		29D2DC35D2CD484D90EE38C3A4FA6338 /* .swiftlint.yml */ = {isa = PBXFileReference; includeInIndex = 1; path = .swiftlint.yml; sourceTree = "<group>"; };
+		312EDEFFEDDA525237255C63539B22FF /* FocusNode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FocusNode.modulemap; sourceTree = "<group>"; };
+		369CB2218EFC616FB23FC9EDD5A829AC /* SCNPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCNPath.framework; path = SCNPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3878695C14D8A27D73D68D085F8E692F /* Pods-ARKitFindor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARKitFindor.release.xcconfig"; sourceTree = "<group>"; };
+		3C3D6E34BC99BAAB616FD0FA25B3E1C3 /* SCNPath.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCNPath.xcconfig; sourceTree = "<group>"; };
+		3DEDEFFC94623F4D24249A9F6B33DF63 /* SCNPath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCNPath-prefix.pch"; sourceTree = "<group>"; };
+		3F04EA551E9B0F9051999E84BB4F413A /* FocusNode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FocusNode-dummy.m"; sourceTree = "<group>"; };
+		4040B3FB6F899F62EABEE43A148DF4BA /* FocusNode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FocusNode-umbrella.h"; sourceTree = "<group>"; };
+		441EA04235F0D0C28E3F90939FA35503 /* SCNPath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCNPath-Info.plist"; sourceTree = "<group>"; };
+		4B001D40E461606023A45CF3D3A6E506 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		50287286C48BE59940AF90A3E5895431 /* SmartHitTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartHitTest.swift; path = Sources/SmartHitTest/SmartHitTest.swift; sourceTree = "<group>"; };
+		560DFAC990EC642E7BA833817D54C913 /* FocusNode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FocusNode-Info.plist"; sourceTree = "<group>"; };
+		5F15F9EFAB46B8B7C4B979E3F49588E3 /* SmartHitTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartHitTest-prefix.pch"; sourceTree = "<group>"; };
+		6017BE6F47F5B3427488256298C5A0A4 /* Pods-ARKitFindor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARKitFindor-umbrella.h"; sourceTree = "<group>"; };
+		63E06C93DE5C800DB4811E4329F0DBE0 /* SCNPath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCNPath-dummy.m"; sourceTree = "<group>"; };
+		64DD74D6A60A25ED9FFE53328996876C /* SmartHitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmartHitTest.framework; path = SmartHitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ADA671CBEE8300E950CC363D6E01B4 /* FocusNode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FocusNode.xcconfig; sourceTree = "<group>"; };
+		8A07247FD70F1EB4630D5634451253FD /* SCNPath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCNPath-umbrella.h"; sourceTree = "<group>"; };
+		8D99EEAC0938F11599F392E4ED5DFD64 /* Pods-ARKitFindor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARKitFindor-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A5DAACA61BEEDF4B284342262F1F29 /* FocusNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusNode.swift; path = Sources/FocusNode/FocusNode.swift; sourceTree = "<group>"; };
+		941D5A76736ABE424B451D8ADEBF5A9F /* Pods_ARKitFindor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ARKitFindor.framework; path = "Pods-ARKitFindor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945533ACB38D68F81D67C435BDFE5649 /* SmartHitTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SmartHitTest-Info.plist"; sourceTree = "<group>"; };
+		9CC6FE3C04822126B5BBB81272B74F53 /* FocusSquare+Segment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FocusSquare+Segment.swift"; path = "Sources/FocusNode/FocusSquare+Segment.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A036A564EEF3617EEE127FC183C1F805 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Extensions.swift"; path = "Sources/SCNPath/SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		ADDB52E8A4835C30A3CC2678F3F4275A /* Pods-ARKitFindor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARKitFindor-dummy.m"; sourceTree = "<group>"; };
+		BA532AC30681FA64AE9B78F8C491FF50 /* FocusSquare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusSquare.swift; path = Sources/FocusNode/FocusSquare.swift; sourceTree = "<group>"; };
+		BC7C5900C38E34E0A5A116D042D3BC74 /* Pods-ARKitFindor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARKitFindor.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1C6DDFE55CEA63D4DB91D9946C47AE /* Pods-ARKitFindor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARKitFindor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D035D0FBE2871934210692BCED828342 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
+		D303E3DF06AD7A13B8B6F7B029B67AA8 /* SCNPath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCNPath.modulemap; sourceTree = "<group>"; };
+		D48CEEC67877C52D85924B018EFF3034 /* SmartHitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartHitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4160E4EE9C83F55C52C0E80D4A20AE /* Pods-ARKitFindor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARKitFindor-Info.plist"; sourceTree = "<group>"; };
+		DBC3B13FC8B95D4B5AB1055F3AB5C3C6 /* Pods-ARKitFindor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARKitFindor.modulemap"; sourceTree = "<group>"; };
+		E2FAB9A0700CBCC72BF57D6B94EC99BD /* SCNPathNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCNPathNode.swift; path = Sources/SCNPath/SCNPathNode.swift; sourceTree = "<group>"; };
+		E8A8DE869A7C4F441EF133FFF79A94E8 /* FocusNode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FocusNode-prefix.pch"; sourceTree = "<group>"; };
+		E9917F53A2AA4E5D5D1C8E159B20CBCA /* FocusNode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FocusNode.framework; path = FocusNode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1E49A88944DF323AE76B823DBC040A /* SmartHitTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartHitTest.xcconfig; sourceTree = "<group>"; };
+		EEE0A07D834276322A6938EE857F4F49 /* SmartHitTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmartHitTest.modulemap; sourceTree = "<group>"; };
+		F28FF871055F8AD24B38E6992557CDC0 /* SCNGeometry+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNGeometry+Extensions.swift"; path = "Sources/SCNPath/SCNGeometry+Extensions.swift"; sourceTree = "<group>"; };
+		F2CB59AACAB3DF0FA0B57C547F5AF729 /* Pods-ARKitFindor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARKitFindor-frameworks.sh"; sourceTree = "<group>"; };
+		FF8C38360733EBB3C0AD577F7B2D64E2 /* FocusPlane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusPlane.swift; path = Sources/FocusNode/FocusPlane.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5155BD8C9A0857CCC86967F4C3B906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F378FBA55E7AE7905F2AE601FA86C6 /* Foundation.framework in Frameworks */,
+				8D870A5C6245C33695197BEF6A3370F4 /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C43FED2114E05B31352AD39922FA0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2814FE1C94B9ABD19D1566AD7AFC5608 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DE8B1FA9A5B638D80A6D122AD14FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE98A67442E69991FCAD8B1B3B620D8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6DDDDF5A1EAB0BCD52B2E761A7F9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04333A263C4F6D8306EFE71B39C6B53 /* Foundation.framework in Frameworks */,
+				5A57072D8B5D6303049393C392F2EBBA /* SmartHitTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02181EC9A52A29738F2CBE1BC1C3240B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87F101557FE182607A11EF7A15E3B9B /* Pods-ARKitFindor */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		241B3D0FBACFA639A8A9DA81D552D87E /* SmartHitTest */ = {
+			isa = PBXGroup;
+			children = (
+				50287286C48BE59940AF90A3E5895431 /* SmartHitTest.swift */,
+				95ACF166CD34C491FCEBA62B28DE9117 /* Support Files */,
+			);
+			name = SmartHitTest;
+			path = SmartHitTest;
+			sourceTree = "<group>";
+		};
+		24F63DB47F54FEF9199D8BD58AA68235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D48CEEC67877C52D85924B018EFF3034 /* SmartHitTest.framework */,
+				DF60DC732D45A2D3BD7595E45173D2C7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D4A9F55ED0BEAC49B008A7EF686B26E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8571A525C4BC0EC1AC6FE14DE69B897B /* FocusNode */,
+				FA5E9355EAF9852AD14BCBE221C4F6E7 /* SCNPath */,
+				241B3D0FBACFA639A8A9DA81D552D87E /* SmartHitTest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74DD932BA2F31FF46DC3E3F5CDAD8783 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D303E3DF06AD7A13B8B6F7B029B67AA8 /* SCNPath.modulemap */,
+				3C3D6E34BC99BAAB616FD0FA25B3E1C3 /* SCNPath.xcconfig */,
+				63E06C93DE5C800DB4811E4329F0DBE0 /* SCNPath-dummy.m */,
+				441EA04235F0D0C28E3F90939FA35503 /* SCNPath-Info.plist */,
+				3DEDEFFC94623F4D24249A9F6B33DF63 /* SCNPath-prefix.pch */,
+				8A07247FD70F1EB4630D5634451253FD /* SCNPath-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCNPath";
+			sourceTree = "<group>";
+		};
+		7F76E2222F0A314062EF6DF0F3D7AAC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9917F53A2AA4E5D5D1C8E159B20CBCA /* FocusNode.framework */,
+				941D5A76736ABE424B451D8ADEBF5A9F /* Pods_ARKitFindor.framework */,
+				369CB2218EFC616FB23FC9EDD5A829AC /* SCNPath.framework */,
+				64DD74D6A60A25ED9FFE53328996876C /* SmartHitTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8571A525C4BC0EC1AC6FE14DE69B897B /* FocusNode */ = {
+			isa = PBXGroup;
+			children = (
+				035CF5A43F3F6582E6A6F3D14D7CEF70 /* float4x4+Extension.swift */,
+				93A5DAACA61BEEDF4B284342262F1F29 /* FocusNode.swift */,
+				FF8C38360733EBB3C0AD577F7B2D64E2 /* FocusPlane.swift */,
+				BA532AC30681FA64AE9B78F8C491FF50 /* FocusSquare.swift */,
+				9CC6FE3C04822126B5BBB81272B74F53 /* FocusSquare+Segment.swift */,
+				F2CFB6E067DDD3847928507C077451B5 /* Support Files */,
+			);
+			name = FocusNode;
+			path = FocusNode;
+			sourceTree = "<group>";
+		};
+		95ACF166CD34C491FCEBA62B28DE9117 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE0A07D834276322A6938EE857F4F49 /* SmartHitTest.modulemap */,
+				EA1E49A88944DF323AE76B823DBC040A /* SmartHitTest.xcconfig */,
+				05454FCDAEFB5240D3FDD352BDB72D39 /* SmartHitTest-dummy.m */,
+				945533ACB38D68F81D67C435BDFE5649 /* SmartHitTest-Info.plist */,
+				5F15F9EFAB46B8B7C4B979E3F49588E3 /* SmartHitTest-prefix.pch */,
+				12CD8C2B16976191B097F936CB41FA33 /* SmartHitTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmartHitTest";
+			sourceTree = "<group>";
+		};
+		A87F101557FE182607A11EF7A15E3B9B /* Pods-ARKitFindor */ = {
+			isa = PBXGroup;
+			children = (
+				DBC3B13FC8B95D4B5AB1055F3AB5C3C6 /* Pods-ARKitFindor.modulemap */,
+				BD1C6DDFE55CEA63D4DB91D9946C47AE /* Pods-ARKitFindor-acknowledgements.markdown */,
+				8D99EEAC0938F11599F392E4ED5DFD64 /* Pods-ARKitFindor-acknowledgements.plist */,
+				ADDB52E8A4835C30A3CC2678F3F4275A /* Pods-ARKitFindor-dummy.m */,
+				F2CB59AACAB3DF0FA0B57C547F5AF729 /* Pods-ARKitFindor-frameworks.sh */,
+				DB4160E4EE9C83F55C52C0E80D4A20AE /* Pods-ARKitFindor-Info.plist */,
+				6017BE6F47F5B3427488256298C5A0A4 /* Pods-ARKitFindor-umbrella.h */,
+				BC7C5900C38E34E0A5A116D042D3BC74 /* Pods-ARKitFindor.debug.xcconfig */,
+				3878695C14D8A27D73D68D085F8E692F /* Pods-ARKitFindor.release.xcconfig */,
+			);
+			name = "Pods-ARKitFindor";
+			path = "Target Support Files/Pods-ARKitFindor";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				24F63DB47F54FEF9199D8BD58AA68235 /* Frameworks */,
+				6D4A9F55ED0BEAC49B008A7EF686B26E /* Pods */,
+				7F76E2222F0A314062EF6DF0F3D7AAC6 /* Products */,
+				02181EC9A52A29738F2CBE1BC1C3240B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF60DC732D45A2D3BD7595E45173D2C7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B001D40E461606023A45CF3D3A6E506 /* Foundation.framework */,
+				D035D0FBE2871934210692BCED828342 /* SceneKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2CFB6E067DDD3847928507C077451B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				312EDEFFEDDA525237255C63539B22FF /* FocusNode.modulemap */,
+				76ADA671CBEE8300E950CC363D6E01B4 /* FocusNode.xcconfig */,
+				3F04EA551E9B0F9051999E84BB4F413A /* FocusNode-dummy.m */,
+				560DFAC990EC642E7BA833817D54C913 /* FocusNode-Info.plist */,
+				E8A8DE869A7C4F441EF133FFF79A94E8 /* FocusNode-prefix.pch */,
+				4040B3FB6F899F62EABEE43A148DF4BA /* FocusNode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FocusNode";
+			sourceTree = "<group>";
+		};
+		FA5E9355EAF9852AD14BCBE221C4F6E7 /* SCNPath */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DC35D2CD484D90EE38C3A4FA6338 /* .swiftlint.yml */,
+				F28FF871055F8AD24B38E6992557CDC0 /* SCNGeometry+Extensions.swift */,
+				E2FAB9A0700CBCC72BF57D6B94EC99BD /* SCNPathNode.swift */,
+				A036A564EEF3617EEE127FC183C1F805 /* SCNVector3+Extensions.swift */,
+				74DD932BA2F31FF46DC3E3F5CDAD8783 /* Support Files */,
+			);
+			name = SCNPath;
+			path = SCNPath;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22186F669D48160BC9CB2680F50B9883 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998FC6203F5323CD920B153C5A6C2CBA /* Pods-ARKitFindor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ACC586BC82FC61155F85D4C0BD959B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC38F84053AB7665DD57836815D9DEC6 /* FocusNode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7271162916E2518DA30D40432CADF21A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3EB09FA4E6871711951F6598156CC6 /* SmartHitTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C29CD5C3BB9E523EFDFBC23A780C80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E92C609E6CC071FF2C8A4880102616 /* SCNPath-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18615455FD49A3F7FA9ACC6265296169 /* SmartHitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4AA0EDF93CB4440D38521CDD70EC17 /* Build configuration list for PBXNativeTarget "SmartHitTest" */;
+			buildPhases = (
+				7271162916E2518DA30D40432CADF21A /* Headers */,
+				58A7F958F89A3207997C0CC53A1C5CA5 /* Sources */,
+				5C43FED2114E05B31352AD39922FA0D7 /* Frameworks */,
+				90DA6DDAD205D02AEC64965854036632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHitTest;
+			productName = SmartHitTest;
+			productReference = 64DD74D6A60A25ED9FFE53328996876C /* SmartHitTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48E11655272516BA3786E76D9BB0C819 /* SCNPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632B6175517CB7F83C2FD99DB89DB3A1 /* Build configuration list for PBXNativeTarget "SCNPath" */;
+			buildPhases = (
+				99C29CD5C3BB9E523EFDFBC23A780C80 /* Headers */,
+				511F45E369FB41E071502EB53BA40CFB /* Sources */,
+				3D5155BD8C9A0857CCC86967F4C3B906 /* Frameworks */,
+				2F0A5DD6235EA942D25FE43A696329DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCNPath;
+			productName = SCNPath;
+			productReference = 369CB2218EFC616FB23FC9EDD5A829AC /* SCNPath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52D793507AD2E551A633AEF7AD3DBDD2 /* Pods-ARKitFindor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D37EA20AFB02E8C9E9F5BFA98A47C78 /* Build configuration list for PBXNativeTarget "Pods-ARKitFindor" */;
+			buildPhases = (
+				22186F669D48160BC9CB2680F50B9883 /* Headers */,
+				6ABA8AD39DACA496D4FF886DA8D1BCBF /* Sources */,
+				C0DE8B1FA9A5B638D80A6D122AD14FD5 /* Frameworks */,
+				4103A78C12CC5B926FF2AE3A406D087E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E5A76E285D348EF87DCBF43F18E991 /* PBXTargetDependency */,
+				A9EF2D6094509657D030B1E693130392 /* PBXTargetDependency */,
+				62ABBD14F1D5BD53A2355130D26B9E8C /* PBXTargetDependency */,
+			);
+			name = "Pods-ARKitFindor";
+			productName = "Pods-ARKitFindor";
+			productReference = 941D5A76736ABE424B451D8ADEBF5A9F /* Pods_ARKitFindor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFAC227ECFE2C0011E6381D1536D947D /* FocusNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED288489B62548D5E37E6AB7EF590E9 /* Build configuration list for PBXNativeTarget "FocusNode" */;
+			buildPhases = (
+				68ACC586BC82FC61155F85D4C0BD959B /* Headers */,
+				00230B997AE5FD26C681763C9DFE840A /* Sources */,
+				FA6DDDDF5A1EAB0BCD52B2E761A7F9E3 /* Frameworks */,
+				65BE5F3FEDA12812D37E8F39B0E0C82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EEC19D530A354E4F789E7DEA2C6BCE0 /* PBXTargetDependency */,
+			);
+			name = FocusNode;
+			productName = FocusNode;
+			productReference = E9917F53A2AA4E5D5D1C8E159B20CBCA /* FocusNode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7F76E2222F0A314062EF6DF0F3D7AAC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFAC227ECFE2C0011E6381D1536D947D /* FocusNode */,
+				52D793507AD2E551A633AEF7AD3DBDD2 /* Pods-ARKitFindor */,
+				48E11655272516BA3786E76D9BB0C819 /* SCNPath */,
+				18615455FD49A3F7FA9ACC6265296169 /* SmartHitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F0A5DD6235EA942D25FE43A696329DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4103A78C12CC5B926FF2AE3A406D087E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65BE5F3FEDA12812D37E8F39B0E0C82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DA6DDAD205D02AEC64965854036632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00230B997AE5FD26C681763C9DFE840A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3316863398CD7F33F36162F4193AAD /* float4x4+Extension.swift in Sources */,
+				1F25FD227E0C15E04470B0830BBB43BE /* FocusNode-dummy.m in Sources */,
+				3593F522F808FEAAABBF394B618AF5C4 /* FocusNode.swift in Sources */,
+				37B14354451FB6C2394C4E5E45E3C77C /* FocusPlane.swift in Sources */,
+				4D49F61BC2E8DDC1921263FEF8FF807B /* FocusSquare+Segment.swift in Sources */,
+				A2FCDD8324434D1993BF2CA214DFADCE /* FocusSquare.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511F45E369FB41E071502EB53BA40CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77204BDFB0D79F1737B9C78470B4559A /* .swiftlint.yml in Sources */,
+				A010E49460DC518BCF60A711C25831D1 /* SCNGeometry+Extensions.swift in Sources */,
+				21A68C025ABF75111EA33FAD9166A61D /* SCNPath-dummy.m in Sources */,
+				998B1335B7F7C6D20A6D3E45845D9688 /* SCNPathNode.swift in Sources */,
+				BC5971ABF4C65F58114D955DF6F47F26 /* SCNVector3+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A7F958F89A3207997C0CC53A1C5CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513AA7D6DEFECD1209CB7F5B4AA43A75 /* SmartHitTest-dummy.m in Sources */,
+				12E29C8EF2410D60FCA34B96B5D6B26E /* SmartHitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABA8AD39DACA496D4FF886DA8D1BCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2189CE5D4497D0E7E12D8BAC6E69BB /* Pods-ARKitFindor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33E5A76E285D348EF87DCBF43F18E991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FocusNode;
+			target = CFAC227ECFE2C0011E6381D1536D947D /* FocusNode */;
+			targetProxy = 1494F48BB633C71566061E3F0A7A98EA /* PBXContainerItemProxy */;
+		};
+		62ABBD14F1D5BD53A2355130D26B9E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartHitTest;
+			target = 18615455FD49A3F7FA9ACC6265296169 /* SmartHitTest */;
+			targetProxy = 24E1413A26407C3077B0C1186FDB25C6 /* PBXContainerItemProxy */;
+		};
+		9EEC19D530A354E4F789E7DEA2C6BCE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartHitTest;
+			target = 18615455FD49A3F7FA9ACC6265296169 /* SmartHitTest */;
+			targetProxy = E6E12FB5DBF66E0BD7AE8BD89697AD0C /* PBXContainerItemProxy */;
+		};
+		A9EF2D6094509657D030B1E693130392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCNPath;
+			target = 48E11655272516BA3786E76D9BB0C819 /* SCNPath */;
+			targetProxy = 186A5FCA860E7C9211298735C01B030F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09C8781032E6C25161B85F62F76991CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3878695C14D8A27D73D68D085F8E692F /* Pods-ARKitFindor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARKitFindor/Pods-ARKitFindor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARKitFindor/Pods-ARKitFindor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		42F3AB97473DB840411655826AAC8001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1E49A88944DF323AE76B823DBC040A /* SmartHitTest.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartHitTest/SmartHitTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartHitTest/SmartHitTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmartHitTest/SmartHitTest.modulemap";
+				PRODUCT_MODULE_NAME = SmartHitTest;
+				PRODUCT_NAME = SmartHitTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		467A90DD42CF5768739BC73365ED67DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76ADA671CBEE8300E950CC363D6E01B4 /* FocusNode.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FocusNode/FocusNode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FocusNode/FocusNode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FocusNode/FocusNode.modulemap";
+				PRODUCT_MODULE_NAME = FocusNode;
+				PRODUCT_NAME = FocusNode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5354E201754891D16D02E9A2ECEE221F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3D6E34BC99BAAB616FD0FA25B3E1C3 /* SCNPath.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCNPath/SCNPath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCNPath/SCNPath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCNPath/SCNPath.modulemap";
+				PRODUCT_MODULE_NAME = SCNPath;
+				PRODUCT_NAME = SCNPath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7D76E0C7E879EF2027BE09A1BF035E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3D6E34BC99BAAB616FD0FA25B3E1C3 /* SCNPath.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCNPath/SCNPath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCNPath/SCNPath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCNPath/SCNPath.modulemap";
+				PRODUCT_MODULE_NAME = SCNPath;
+				PRODUCT_NAME = SCNPath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9280443E10CBBC1164A6900BC5B17DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7C5900C38E34E0A5A116D042D3BC74 /* Pods-ARKitFindor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARKitFindor/Pods-ARKitFindor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARKitFindor/Pods-ARKitFindor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD763ABE47199B5CA4DC8BE633AA9FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76ADA671CBEE8300E950CC363D6E01B4 /* FocusNode.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FocusNode/FocusNode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FocusNode/FocusNode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FocusNode/FocusNode.modulemap";
+				PRODUCT_MODULE_NAME = FocusNode;
+				PRODUCT_NAME = FocusNode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7F20750CA4341A435FA4353D919F689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1E49A88944DF323AE76B823DBC040A /* SmartHitTest.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartHitTest/SmartHitTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartHitTest/SmartHitTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmartHitTest/SmartHitTest.modulemap";
+				PRODUCT_MODULE_NAME = SmartHitTest;
+				PRODUCT_NAME = SmartHitTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E4AA0EDF93CB4440D38521CDD70EC17 /* Build configuration list for PBXNativeTarget "SmartHitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F20750CA4341A435FA4353D919F689 /* Debug */,
+				42F3AB97473DB840411655826AAC8001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D37EA20AFB02E8C9E9F5BFA98A47C78 /* Build configuration list for PBXNativeTarget "Pods-ARKitFindor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9280443E10CBBC1164A6900BC5B17DC0 /* Debug */,
+				09C8781032E6C25161B85F62F76991CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632B6175517CB7F83C2FD99DB89DB3A1 /* Build configuration list for PBXNativeTarget "SCNPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D76E0C7E879EF2027BE09A1BF035E29 /* Debug */,
+				5354E201754891D16D02E9A2ECEE221F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED288489B62548D5E37E6AB7EF590E9 /* Build configuration list for PBXNativeTarget "FocusNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD763ABE47199B5CA4DC8BE633AA9FCA /* Debug */,
+				467A90DD42CF5768739BC73365ED67DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

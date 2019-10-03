@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ARKitFindor/Pods-ARKitFindor-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FocusNode/FocusNode.framework
+${BUILT_PRODUCTS_DIR}/SCNPath/SCNPath.framework
+${BUILT_PRODUCTS_DIR}/SmartHitTest/SmartHitTest.framework
