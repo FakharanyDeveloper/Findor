@@ -3,22 +3,26 @@ PODS:
     - SmartHitTest (~> 2.0)
   - SCNPath (1.2.0)
   - SmartHitTest (2.0.0)
+  - TransitionButton (0.5.2)
 
 DEPENDENCIES:
   - FocusNode
   - SCNPath
+  - TransitionButton
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FocusNode
     - SCNPath
     - SmartHitTest
+    - TransitionButton
 
 SPEC CHECKSUMS:
   FocusNode: 7d25505469a88840090bfbc96d67cfcf2d525868
   SCNPath: bdf16647115f12a1f9653e7940f5441ab92f20b3
   SmartHitTest: 1f203b85c50d571ae194917e93f2d5dfc79b51c0
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
 
-PODFILE CHECKSUM: 9efd9c7ecd4a5f4ce920a9268a14b30bddb3a8a4
+PODFILE CHECKSUM: 131dab72a2f9d35abb5068926eeaa58de03b3306
 
 COCOAPODS: 1.7.5

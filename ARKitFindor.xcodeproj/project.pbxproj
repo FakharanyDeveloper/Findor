@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163E66602345C9B50075602D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163E665F2345C9B50075602D /* HomeViewController.swift */; };
 		16B4EB2F234565A600EEFE82 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4EB2E234565A600EEFE82 /* QRViewController.swift */; };
 		16B4EB31234565FD00EEFE82 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4EB30234565FD00EEFE82 /* PickerViewController.swift */; };
 		16BC9D592345130A0091C87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC9D582345130A0091C87F /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163E665F2345C9B50075602D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		16B4EB2E234565A600EEFE82 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QRViewController.swift; path = ../QRViewController.swift; sourceTree = "<group>"; };
 		16B4EB30234565FD00EEFE82 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PickerViewController.swift; path = ../PickerViewController.swift; sourceTree = "<group>"; };
 		16BC9D552345130A0091C87F /* ARKitFindor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitFindor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,12 +48,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		163E666123460EDB0075602D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		16B4EB322345688D00EEFE82 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				16BC9D5C2345130A0091C87F /* ScenceVC.swift */,
 				16B4EB2E234565A600EEFE82 /* QRViewController.swift */,
 				16B4EB30234565FD00EEFE82 /* PickerViewController.swift */,
+				163E665F2345C9B50075602D /* HomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -77,6 +87,7 @@
 		16BC9D572345130A0091C87F /* ARKitFindor */ = {
 			isa = PBXGroup;
 			children = (
+				163E666123460EDB0075602D /* New Group */,
 				16B4EB322345688D00EEFE82 /* Controllers */,
 				16BC9D582345130A0091C87F /* AppDelegate.swift */,
 				16BC9D5A2345130A0091C87F /* art.scnassets */,
@@ -102,7 +113,6 @@
 				64CC80D074EA31E61C57DC64 /* Pods-ARKitFindor.debug.xcconfig */,
 				F532C6430DF835E37EC3E26F /* Pods-ARKitFindor.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -222,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163E66602345C9B50075602D /* HomeViewController.swift in Sources */,
 				16BC9D5D2345130A0091C87F /* ScenceVC.swift in Sources */,
 				16BC9D592345130A0091C87F /* AppDelegate.swift in Sources */,
 				16B4EB31234565FD00EEFE82 /* PickerViewController.swift in Sources */,

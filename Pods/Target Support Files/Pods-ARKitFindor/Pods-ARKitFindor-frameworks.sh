@@ -164,11 +164,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FocusNode/FocusNode.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SCNPath/SCNPath.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SmartHitTest/SmartHitTest.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FocusNode/FocusNode.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SCNPath/SCNPath.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SmartHitTest/SmartHitTest.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

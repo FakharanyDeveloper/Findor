@@ -25,7 +25,7 @@ extension ViewController: UIGestureRecognizerDelegate {
     func setupGestures() {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
         tapGesture.delegate = self
-        self.view.addGestureRecognizer(tapGesture)
+        self.ARView.addGestureRecognizer(tapGesture)
     }
     
     @IBAction func handleTap(_ gestureRecognizer: UITapGestureRecognizer) {
@@ -52,10 +52,24 @@ extension ViewController {
             geom.update(from: planeAnchor.geometry)
         }
     }
+    
+    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+        let image = UIImage(named: "signBg")
+        let node = SCNNode()
+        if let imageAnchor = anchor as? ARImageAnchor {
+            let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width * 2, height: imageAnchor.referenceImage.physicalSize.height * 2)
+            plane.firstMaterial?.diffuse.contents = image
+            let planeNode = SCNNode(geometry: plane)
+            planeNode.eulerAngles.x = -.pi / 2
+            node.addChildNode(planeNode)
+        }
+        return node
+    }
 }
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var ARView: UIView!
     var originPosition: (x:Float,y:Float)!
     var destinationPosition:(x:Float,y:Float)!
     
@@ -74,10 +88,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.sceneView.frame = self.view.bounds
+        self.sceneView.frame = self.ARView.bounds
         self.sceneView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
-        self.view.addSubview(sceneView)
+        self.ARView.addSubview(sceneView)
         
         // Set the view's delegate
         self.sceneView.delegate = self
@@ -89,7 +103,9 @@ class ViewController: UIViewController {
         let pathMat = SCNMaterial()
         self.pathNode.materials = [pathMat]
         self.pathNode.position.y += 0.05
-        pathMat.diffuse.contents = UIImage(named: "path_with_fade")
+//        pathMat.diffuse.contents = UIImage(named: "path_with_fade")
+        pathMat.diffuse.contents = UIImage(named: "arrow 2")
+        self.pathNode.textureRepeats = true
         self.pathNode.width = 0.5
         
         self.sceneView.scene.rootNode.addChildNode(self.pathNode)
@@ -127,12 +143,49 @@ class ViewController: UIViewController {
         
         let configuration = ARWorldTrackingConfiguration()
         configuration.planeDetection = [.horizontal, .vertical]
-        
+        let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: Bundle.main)
+        configuration.detectionImages = referenceImages
+        configuration.maximumNumberOfTrackedImages = 1
         sceneView.session.run(configuration)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         sceneView.session.pause()
+    }
+    @IBAction func homeBtnPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
+        self.present(vc, animated: true, completion: nil)
+    }
+    @IBAction func snapBressed(_ sender: Any) {
+        let result = sceneView.snapshot()
+        UIImageWriteToSavedPhotosAlbum(result, nil, nil, nil)
+        let alert = UIAlertController(title: "Snapshot", message: "Your snapshot has been saved to photo library", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            switch action.style{
+            case .default:
+                print("default")
+            case .cancel:
+                print("cancel")
+                
+            case .destructive:
+                print("destructive")
+                
+                
+            }}))
+        self.present(alert, animated: true, completion: nil)
+    }
+}
+
+extension UIView {
+    
+    // Using a function since `var image` might conflict with an existing variable
+    // (like on `UIImageView`)
+    func asImage() -> UIImage {
+        let renderer = UIGraphicsImageRenderer(bounds: bounds)
+        return renderer.image { rendererContext in
+            layer.render(in: rendererContext.cgContext)
+        }
     }
 }

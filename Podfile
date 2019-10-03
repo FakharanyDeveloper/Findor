@@ -9,5 +9,6 @@ target 'ARKitFindor' do
 # Pods for PathVisualiser
   pod 'FocusNode'
   pod 'SCNPath'
+pod 'TransitionButton'
 
 end
